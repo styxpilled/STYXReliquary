@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STYX Reliquary</title>
+<style>
+  @font-face { font-family: "R"; src: url("../fonts/woff2/STYXReliquary-Regular.woff2") format("woff2"); }
+
+  * { margin: 0; box-sizing: border-box; }
+  html, body { width: 1600px; background: #f2f1ec; color: #151515; }
+  body { font-family: "R"; padding: 72px 80px; font-kerning: normal; }
+  hr { border: 0; border-top: 2px solid #151515; margin: 40px 0; }
+  h1 { font-size: 180px; font-weight: 400; line-height: 0.95; white-space: nowrap; }
+  p { font-size: 62px; line-height: 1.15; }
+  .big { font-size: 150px; line-height: 1; white-space: nowrap; }
+</style>
+</head>
+<body>
+<h1>STYX Reliquary</h1>
+<hr>
+<p id="text"></p>
+<hr>
+<div id="phrases"></div>
+<hr>
+<div class="big" id="big"></div>
+<script>
+  const TEXTS = {
+    baggage: {
+      text: "Found in checked baggage at gate B12: one reliquary, gilt copper, c. 1280. Contents: 3 teeth, a thorn, some hair. The owner says the bones are his own. Please do not shake the box.",
+      phrases: ["Noli me tangere", "Bitte nicht schütteln", "Ne pas secouer, s’il vous plaît",
+                "Må ikke rystes", "Frágil: contiene un santo"],
+      big: "3 Teeth & a Thorn",
+    },
+    pitch: {
+      text: "Thy dead, at scale. Our corporate plan allows the raising of up to 400 souls per month, with 99.9% uptime. Operating in ye Olde World and ye New. Ranked as the most reliable perpetual service platform, trusted by His Majesty and Microsoft Azure. Book a demo ere midnight.",
+      phrases: ["Ça coûte une âme, hélas, à perpétuité", "Umów demo i ożyw swój biznes",
+                "Lélekgyűjtés a felhőben"],
+      big: "Souls as a Service",
+    },
+    release: {
+      text: "Version 6.6.6 is here. New: bulk exhumation, single sign-on for the damned, and a dashboard for thy quarterly harvest. Fixed: some souls returned to the wrong body. Deprecated: mercy.",
+      phrases: ["Requiescat in pace, v2.0", "Tote schlafen nicht mehr", "Votre âme, notre priorité",
+                "Cosechamos almas desde 1349", "Annulla quando vuoi, forse"],
+      big: "Deprecated: Mercy",
+    },
+    terms: {
+      text: "By clicking Accept, the undersigned doth grant to the Vendor his immortal soul, in perpetuity, across all realms now known or hereafter devised. Refunds within 14 days. See clause 9 for hellfire.",
+      phrases: ["Caveat emptor", "Alle Seelen vorbehalten", "Lu et approuvé, hélas",
+                "Sin devoluciones tras la muerte", "L’anima non è rimborsabile"],
+      big: "Accept All Curses",
+    },
+  };
+  const t = TEXTS[new URLSearchParams(location.search).get("text") || "pitch"];
+  document.getElementById("text").textContent = t.text;
+  document.getElementById("big").textContent = t.big;
+  for (const phrase of t.phrases)
+    document.getElementById("phrases").appendChild(document.createElement("p")).textContent = phrase;
+  document.fonts.ready.then(() => {
+    document.body.dataset.height = Math.ceil(document.body.getBoundingClientRect().height);
+  });
+</script>
+</body>
+</html>

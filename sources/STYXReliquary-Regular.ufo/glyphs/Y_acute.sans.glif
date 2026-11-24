@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yacute.sans" format="2">
+  <advance width="543"/>
+  <outline>
+    <contour>
+      <point x="538" y="680" type="line"/>
+      <point x="319" y="261" type="line"/>
+      <point x="319" y="0" type="line"/>
+      <point x="224" y="0" type="line"/>
+      <point x="224" y="260" type="line"/>
+      <point x="5" y="680" type="line"/>
+      <point x="109" y="680" type="line"/>
+      <point x="274" y="343" type="line"/>
+      <point x="440" y="680" type="line"/>
+    </contour>
+    <contour>
+      <point x="350" y="899" type="line"/>
+      <point x="390" y="823" type="line"/>
+      <point x="177" y="745" type="line"/>
+      <point x="153" y="793" type="line"/>
+    </contour>
+  </outline>
+</glyph>

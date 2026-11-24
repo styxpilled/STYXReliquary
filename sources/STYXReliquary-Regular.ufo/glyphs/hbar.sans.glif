@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar.sans" format="2">
+  <advance width="584"/>
+  <outline>
+    <contour>
+      <point x="495" y="373" type="qcurve" smooth="yes"/>
+      <point x="495" y="0" type="line"/>
+      <point x="405" y="0" type="line"/>
+      <point x="405" y="360" type="line" smooth="yes"/>
+      <point x="405" y="415"/>
+      <point x="362" y="461"/>
+      <point x="322" y="461" type="qcurve" smooth="yes"/>
+      <point x="281" y="461"/>
+      <point x="218" y="413"/>
+      <point x="190" y="370" type="qcurve"/>
+      <point x="190" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="100" y="598" type="line"/>
+      <point x="22" y="598" type="line"/>
+      <point x="22" y="667" type="line"/>
+      <point x="100" y="667" type="line"/>
+      <point x="100" y="728" type="line"/>
+      <point x="190" y="738" type="line"/>
+      <point x="190" y="667" type="line"/>
+      <point x="336" y="667" type="line"/>
+      <point x="336" y="598" type="line"/>
+      <point x="190" y="598" type="line"/>
+      <point x="190" y="448" type="line"/>
+      <point x="252" y="532"/>
+      <point x="344" y="532" type="qcurve" smooth="yes"/>
+      <point x="415" y="532"/>
+      <point x="495" y="447"/>
+    </contour>
+  </outline>
+</glyph>

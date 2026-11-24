@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.stencil" format="2">
+  <advance width="559"/>
+  <outline>
+    <contour>
+      <point x="68" y="761" type="line"/>
+      <point x="142" y="753"/>
+      <point x="191" y="753" type="qcurve" smooth="yes"/>
+      <point x="455" y="753" type="line"/>
+      <point x="397" y="666" type="line"/>
+      <point x="246" y="666" type="line" smooth="yes"/>
+      <point x="201" y="666"/>
+      <point x="173" y="653" type="qcurve" smooth="yes"/>
+      <point x="135" y="634"/>
+      <point x="118" y="583" type="qcurve" smooth="yes"/>
+      <point x="114" y="572"/>
+      <point x="111" y="561" type="qcurve" smooth="yes"/>
+      <point x="102" y="531"/>
+      <point x="94" y="519" type="qcurve"/>
+      <point x="59" y="519" type="line"/>
+    </contour>
+    <contour>
+      <point x="258" y="-16" type="qcurve" smooth="yes"/>
+      <point x="181" y="-16"/>
+      <point x="181" y="82" type="qcurve" smooth="yes"/>
+      <point x="181" y="234"/>
+      <point x="328" y="480" type="qcurve" smooth="yes"/>
+      <point x="361" y="536"/>
+      <point x="444" y="666" type="qcurve" smooth="yes"/>
+      <point x="504" y="753" type="line"/>
+      <point x="515" y="753" type="line"/>
+      <point x="515" y="687" type="line"/>
+      <point x="479" y="631"/>
+      <point x="407" y="517"/>
+      <point x="379" y="454" type="qcurve" smooth="yes"/>
+      <point x="316" y="311"/>
+      <point x="316" y="161" type="qcurve" smooth="yes"/>
+      <point x="316" y="126"/>
+      <point x="324" y="74"/>
+      <point x="324" y="52" type="qcurve" smooth="yes"/>
+      <point x="324" y="-16"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="X.mono" format="2">
+  <advance width="629"/>
+  <outline>
+    <contour>
+      <point x="43" y="0" type="line"/>
+      <point x="264" y="367" type="line"/>
+      <point x="43" y="734" type="line"/>
+      <point x="144" y="734" type="line"/>
+      <point x="317" y="447" type="line"/>
+      <point x="485" y="734" type="line"/>
+      <point x="586" y="734" type="line"/>
+      <point x="364" y="368" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="311" y="288" type="line"/>
+      <point x="144" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

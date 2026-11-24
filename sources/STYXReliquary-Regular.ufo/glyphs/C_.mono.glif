@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C.mono" format="2">
+  <advance width="629"/>
+  <outline>
+    <contour>
+      <point x="320" y="-13" type="qcurve" smooth="yes"/>
+      <point x="231" y="-13"/>
+      <point x="102" y="82"/>
+      <point x="34" y="252"/>
+      <point x="34" y="367" type="qcurve" smooth="yes"/>
+      <point x="34" y="481"/>
+      <point x="102" y="652"/>
+      <point x="231" y="746"/>
+      <point x="320" y="746" type="qcurve" smooth="yes"/>
+      <point x="433" y="746"/>
+      <point x="571" y="622"/>
+      <point x="583" y="518" type="qcurve"/>
+      <point x="485" y="518" type="line"/>
+      <point x="475" y="580"/>
+      <point x="391" y="664"/>
+      <point x="320" y="664" type="qcurve" smooth="yes"/>
+      <point x="229" y="664"/>
+      <point x="124" y="505"/>
+      <point x="124" y="367" type="qcurve" smooth="yes"/>
+      <point x="124" y="228"/>
+      <point x="229" y="70"/>
+      <point x="320" y="70" type="qcurve" smooth="yes"/>
+      <point x="394" y="70"/>
+      <point x="475" y="150"/>
+      <point x="485" y="213" type="qcurve"/>
+      <point x="583" y="213" type="line"/>
+      <point x="566" y="108"/>
+      <point x="433" y="-13"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.stencil" format="2">
+  <advance width="559"/>
+  <outline>
+    <contour>
+      <point x="227" y="733" type="line"/>
+      <point x="263" y="749"/>
+      <point x="293" y="770" type="qcurve"/>
+      <point x="346" y="770" type="line"/>
+      <point x="346" y="143" type="line" smooth="yes"/>
+      <point x="346" y="107"/>
+      <point x="352" y="70"/>
+      <point x="376" y="55"/>
+      <point x="409" y="46"/>
+      <point x="445" y="40"/>
+      <point x="460" y="32" type="qcurve"/>
+      <point x="460" y="0" type="line"/>
+      <point x="111" y="0" type="line"/>
+      <point x="111" y="32" type="line"/>
+      <point x="127" y="40"/>
+      <point x="163" y="46"/>
+      <point x="180" y="50" type="qcurve" smooth="yes"/>
+      <point x="218" y="60"/>
+      <point x="223" y="86" type="qcurve" smooth="yes"/>
+      <point x="227" y="110"/>
+      <point x="227" y="143" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="183" y="653" type="line"/>
+      <point x="163" y="662"/>
+      <point x="107" y="663" type="qcurve"/>
+      <point x="107" y="695" type="line"/>
+      <point x="151" y="704"/>
+      <point x="183" y="718" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>
